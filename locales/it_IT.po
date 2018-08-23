@@ -1,0 +1,60 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI Checking Version\n"
+"POT-Creation-Date: 2018-08-23 13:35+0200\n"
+"PO-Revision-Date: 2018-08-23 13:35+0200\n"
+"Last-Translator: \n"
+"Language-Team: FleuryK\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: front/glpicheckingversion.php:21
+msgid "GLPI Checking Version"
+msgstr "GLPI Checking Version"
+
+#: front/glpicheckingversion.php:36
+msgid "Your version:"
+msgstr "Sei la versione:"
+
+#: front/glpicheckingversion.php:36
+msgid "Latest version:"
+msgstr "Ultima versione:"
+
+#: front/glpicheckingversion.php:39
+msgid "Your version of GLPI is up to date. You have nothing to do."
+msgstr "La tua versione di GLPI è aggiornata. Tu non hai niente da fare."
+
+#: front/glpicheckingversion.php:43 front/glpicheckingversion.php:46
+msgid ""
+"Your version of GLPI is not up to date. Please download this update by "
+"clicking the button below."
+msgstr ""
+"La tua versione di GLPI non è aggiornata. Si prega di scaricare questo "
+"aggiornamento facendo clic sul pulsante qui sotto."
+
+#: front/glpicheckingversion.php:43
+msgid "Download version"
+msgstr "Scarica la versione"
+
+#: front/glpicheckingversion.php:43
+msgid "of GLPI"
+msgstr "di GLPI"
+
+#: front/glpicheckingversion.php:46
+msgid ""
+"Sorry, you have not permission to download. Please contact your "
+"administrator for download latest version."
+msgstr ""
+"Spiacenti, non hai il permesso di scaricare. Contatta l’amministratore "
+"per scaricare l’ultima versione."
+
+#: setup.php:48
+msgid "Installed / not configured"
+msgstr "Installato / non configurato"
