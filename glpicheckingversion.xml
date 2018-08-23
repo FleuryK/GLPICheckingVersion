@@ -1,0 +1,63 @@
+<root>
+      <name>GLPI Checking Version</name>
+      <key>glpicheckingversion</key>
+      <state>stable</state>
+      <logo>https://raw.githubusercontent.com/FleuryK/GLPICheckingVersion/master/logo.png</logo>
+      <description>
+         <short>
+            <en>Checks the version of GLPI on the server is up to date or not.</en>
+            <fr>Vérifie si la version installé de GLPI sur le serveur est à jour ou non.</fr>
+         </short>
+         <long>
+            <en>Checks the version of GLPI on the server is up to date or not.</en>
+            <fr>Vérifie si la version installé de GLPI sur le serveur est à jour ou non.</fr>
+         </long>
+      </description>
+      <homepage>https://github.com/FleuryK/GLPICheckingVersion</homepage>
+      <download>https://github.com/FleuryK/GLPICheckingVersion/releases</download>
+      <issues>https://github.com/FleuryK/GLPICheckingVersion/issues</issues>
+      <readme>https://raw.githubusercontent.com/FleuryK/GLPICheckingVersion/master/README.md</readme>
+      <authors>
+         <author>FleuryK</author>
+      </authors>
+      <versions>
+         <version>
+            <num>1.0.0</num>
+            <compatibility>9.2</compatibility>
+         </version>
+      </versions>
+      <langs>
+         <lang>en_GB</lang>
+         <lang>en_US</lang>
+         <lang>es_ES</lang>
+         <lang>es_MX</lang>
+         <lang>fr_FR</lang>
+         <lang>hu_HU</lang>
+         <lang>it_IT</lang>
+         <lang>pt_BR</lang>
+         <lang>pt_PT</lang>
+         <lang>ru_RU</lang>
+      </langs>
+      <license>GPL v2+</license>
+      <tags>
+         <fr>
+            <tag>GLPI</tag>
+            <tag>Checking</tag>
+            <tag>Version</tag>
+            <tag>glpi</tag>
+            <tag>checking</tag>
+            <tag>version</tag>
+         </fr>
+         <en>
+            <tag>GLPI</tag>
+            <tag>Checking</tag>
+            <tag>Version</tag>
+            <tag>glpi</tag>
+            <tag>checking</tag>
+            <tag>version</tag>
+         </en>
+      </tags>
+      <screenshots>
+         <screenshot></screenshot>
+      </screenshots>
+</root>
