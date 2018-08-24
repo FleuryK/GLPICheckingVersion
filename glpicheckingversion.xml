@@ -23,8 +23,11 @@
       <versions>
          <version>
             <num>1.0.0</num>
-            <compatibility>9.2.x</compatibility>
             <compatibility>9.3.x</compatibility>
+         </version>
+         <version>
+            <num>1.0.0</num>
+            <compatibility>9.2.x</compatibility>
          </version>
       </versions>
       <langs>
