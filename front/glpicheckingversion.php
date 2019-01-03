@@ -34,12 +34,12 @@ if (Session::getCurrentInterface() == "central") {
 				)
 			);
 
-			$latest_version_json = file_get_contents("https://api.github.com/repos/glpi-project/glpi/releases", false, $context);
+			$latest_version_json = file_get_contents("https://api.github.com/repos/glpi-project/glpi/releases/latest", false, $context);
 			$glpi_json = json_decode($latest_version_json);
 
-			echo __('Your version:', 'glpicheckingversion').' <b>'.$value_glpi_v.'</b> <span style="margin-right: 50px;"></span> '.__('Latest version:', 'glpicheckingversion').' <b>'.$glpi_json[0]->{"name"}.'</b><br /><br />';
+			echo __('Your version:', 'glpicheckingversion').' <b>'.$value_glpi_v.'</b> <span style="margin-right: 50px;"></span> '.__('Latest version:', 'glpicheckingversion').' <b>'.$glpi_json->{"name"}.'</b><br /><br />';
 
-			if($value_glpi_v == $glpi_json[0]->{"name"}) {
+			if($value_glpi_v == $glpi_json->{"name"}) {
 				echo '<img src="http://icons.iconarchive.com/icons/paomedia/small-n-flat/128/sign-check-icon.png" alt="No update" /><br />'.__('Your version of GLPI is up to date. You have nothing to do.', 'glpicheckingversion');
 			}
 			else {
@@ -47,7 +47,7 @@ if (Session::getCurrentInterface() == "central") {
 				// EN : If you have a solution for groups (if ... else ...). Only super-admins have a download button
 				// FR : Si vous avez une solution pour les groupes (if ... else ...). Seul les super-admins ont le bouton de téléchargement
 				
-				echo '<img src="http://icons.iconarchive.com/icons/paomedia/small-n-flat/128/sign-error-icon.png" alt="Update available" /><br />'.__('Your version of GLPI is not up to date. Please download this update by clicking the button below.', 'glpicheckingversion').'<br /><br /><a href="'.$glpi_json[0]->{"assets"}[0]->{"browser_download_url"}.'" class="vsubmit" onclick="window.open(this.href); return false;">'.__('Download version', 'glpicheckingversion').' '.$glpi_json[0]->{"name"}.' '.__('of GLPI', 'glpicheckingversion').'</a>';
+				echo '<img src="http://icons.iconarchive.com/icons/paomedia/small-n-flat/128/sign-error-icon.png" alt="Update available" /><br />'.__('Your version of GLPI is not up to date. Please download this update by clicking the button below.', 'glpicheckingversion').'<br /><br /><a href="'.$glpi_json->{"assets"}[0]->{"browser_download_url"}.'" class="vsubmit" onclick="window.open(this.href); return false;">'.__('Download version', 'glpicheckingversion').' '.$glpi_json->{"name"}.' '.__('of GLPI', 'glpicheckingversion').'</a>';
 
 				/* echo '<img src="http://icons.iconarchive.com/icons/paomedia/small-n-flat/128/sign-error-icon.png" alt="Update available" /><br />'.__('Your version of GLPI is not up to date. Please download this update by clicking the button below.', 'glpicheckingversion').'<br /><br />'.__('Sorry, you have not permission to download. Please contact your administrator for download latest version.', 'glpicheckingversion'); */
 			}
