@@ -4,7 +4,7 @@
 /*      © 2018 - https://github.com/FleuryK/GLPICheckingVersion     */
 /* ================================================================ */
 
-define ('PLUGIN_GLPICHECKINGVERSION_VERSION', '1.0.0');
+define ('PLUGIN_GLPICHECKINGVERSION_VERSION', '1.0.1');
 
 function plugin_init_glpicheckingversion() {
 	global $PLUGIN_HOOKS, $CFG_GLPI;
