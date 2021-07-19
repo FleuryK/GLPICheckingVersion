@@ -22,23 +22,35 @@
       </authors>
       <versions>
          <version>
-            <num>1.0.1</num>
+            <num>1.0.2</num>
+            <compatibility>9.5.x</compatibility>
+         </version>
+         <version>
+            <num>1.0.2</num>
+            <compatibility>9.5</compatibility>
+         </version>
+         <version>
+            <num>1.0.2</num>
+            <compatibility>9.4.x</compatibility>
+         </version>
+         <version>
+            <num>1.0.2</num>
             <compatibility>9.4</compatibility>
          </version>
          <version>
-            <num>1.0.1</num>
+            <num>1.0.2</num>
             <compatibility>9.3.x</compatibility>
          </version>
          <version>
-            <num>1.0.1</num>
+            <num>1.0.2</num>
             <compatibility>9.3</compatibility>
          </version>
          <version>
-            <num>1.0.1</num>
+            <num>1.0.2</num>
             <compatibility>9.2.x</compatibility>
          </version>
          <version>
-            <num>1.0.1</num>
+            <num>1.0.2</num>
             <compatibility>9.2</compatibility>
          </version>
       </versions>
